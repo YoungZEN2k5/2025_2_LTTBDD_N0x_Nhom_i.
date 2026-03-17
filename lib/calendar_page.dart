@@ -319,7 +319,7 @@ class _CalendarPageState extends State<CalendarPage> {
                         )
                       : ListView.separated(
                           itemCount: selectedTasks.length,
-                          separatorBuilder: (_, _) =>
+                          separatorBuilder: (_, __) =>
                               const SizedBox(height: 10),
                           itemBuilder: (BuildContext context, int index) {
                             final TaskItem task = selectedTasks[index];
